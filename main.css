@@ -53,6 +53,10 @@ table{
 
 /* Grid */
 
+* {
+	box-sizing: border-box;
+}
+
 .container{
 	margin: 0 40px;
 }
@@ -61,10 +65,10 @@ table{
 	margin-left: -3px;
 }
 
-[class*="span"]{
+[class*="col"]{
 	display: inline;
 	float: left;
-	margin-left: 3%;
+	/* margin-left: 3%; */
 }
 
 /* Columns */
@@ -116,9 +120,13 @@ table{
 .col-12{
 	width: 100%;
 }
+
 @media only screen and (min-width: 768px){
 	.span-one-third{
 		width: 30%;
 	}
 }
 
+.blue{
+	background-color: blue;
+}
