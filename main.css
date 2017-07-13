@@ -306,10 +306,14 @@ body{
 }
 
 .main-headline{
-	background-image: url("assets/pics/main-background.jpg");
+	background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url("assets/pics/main-background.jpg");
+
 	background-size: 100%;
 	background-position: 0 -100px;
 
+
+	
+	height: 530px;
 }
 
 .headline-text-container p{
@@ -320,7 +324,7 @@ body{
 }
 
 .subheadline-text-container{
-	margin-top: 30px;
+	margin-top: 40px;
 }
 
 .subheadline-text-container p{
@@ -332,21 +336,42 @@ body{
 }
 
 .learn-button-container{
-	margin-bottom: 10px;
+	margin-bottom: 30px;
 }
 
+.link-decoration{
+	text-decoration: none;
+}
 
-.test-div{
+.button{
+	display: block;
+
 	width: 35%;
 	margin: 0 auto;
-	background-color: red;
+	background-color: green;
+
+	border-radius: 10px;
+	padding: 20px 0;
+
+	text-align: center;
+	color: #fff;
+	font-size: 1.3em;
 
 }
+
+.learn-more-text{
+	margin-top: 20px;
+
+	text-align: center;
+	color: #fff;
+	font-size: 0.8em;
+}
+
 /* Misc */
 
 .empty-div{
 	height: 20px;
-	background-color: yellow;
+
 }
 
 .blue{
