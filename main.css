@@ -367,6 +367,34 @@ body{
 	font-size: 0.8em;
 }
 
+.fixed{
+	position: fixed;
+	bottom: 0;
+	right: 0;
+}
+
+.fixed-button{
+	display: block;
+	height: 65px;
+	width: 65px;
+	
+
+	border-radius: 100%;
+	background-color: green;
+}
+
+.fixed-button:before{
+	content: "\f086";
+	display: block;
+	margin-left: 25px;
+	padding-top: 15px;
+}
+
+.social-share .contain{
+	width: 20%;
+	margin: 0 auto;
+}
+
 /* Misc */
 
 .empty-div{
