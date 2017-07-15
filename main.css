@@ -67,6 +67,7 @@ table{
 
 .row{
 	clear: both;
+
 }
 
 [class*="col"]{
@@ -339,6 +340,10 @@ body{
 	margin-bottom: 30px;
 }
 
+.explore-button-container{
+
+}
+
 .link-decoration{
 	text-decoration: none;
 }
@@ -346,7 +351,7 @@ body{
 .button{
 	display: block;
 
-	width: 35%;
+	width: 100%;
 	margin: 0 auto;
 	background-color: green;
 
@@ -390,9 +395,12 @@ body{
 	padding-top: 15px;
 }
 
+.social-share{
+	border-bottom: 1px solid #aaa;
+	padding: 20px;
+}
+
 .social-share .contain{
-	width: 20%;
-	margin: 0 auto;
 }
 
 /* Misc */
