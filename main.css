@@ -63,16 +63,22 @@ table{
 
 .container-f{
 	margin: 0;
+	width: 100%;
+	max-width: 1500px;
 }
 
-.row{
-	clear: both;
 
+.row:before,
+.row:after{
+	content: "";
+	display: table;
+	clear: both;
 }
 
 [class*="col"]{
 	display: inline;
 	float: left;
+	min-height: 1px;
 	/* margin-left: 3%; */
 }
 
@@ -403,6 +409,47 @@ body{
 .social-share .contain{
 }
 
+.information h3{
+	font-size: 2em;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.information p{
+	font-size: 1.3em;
+}
+
+.information img{
+	width: 100%;
+	height: auto;
+
+}
+
+.picture-contain{
+	width: 30%;
+	margin: 0 auto;
+}
+
+.information-about{
+	margin-top: 20px;
+}
+
+.information-about h4, .information-about p{
+	text-align: center;
+}
+
+.information-about h4{
+	color: orange;
+	font-size: 1.3em;
+}
+
+.information-about p{
+	font-size: 0.9em;
+}
+
+.learn-contain{
+	background-color: #111;
+}
 /* Misc */
 
 .empty-div{
