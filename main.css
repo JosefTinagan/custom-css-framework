@@ -450,6 +450,12 @@ body{
 .learn-contain{
 	background-color: #111;
 }
+
+
+footer li{
+	display: inline;
+}
+}
 /* Misc */
 
 .empty-div{
@@ -463,4 +469,8 @@ body{
 
 .red{
 	background-color: red;
+}
+
+.black{
+	background-color: #111;
 }
