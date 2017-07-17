@@ -409,7 +409,7 @@ body{
 .social-share .contain{
 }
 
-.information h3{
+.sub-heading{
 	font-size: 2em;
 	font-weight: bold;
 	margin-bottom: 20px;
@@ -451,12 +451,106 @@ body{
 	background-color: #111;
 }
 
+.learn-contain .content{
+	padding: 20px;
+	display: block;
+	
+}
+
+.learn-contain .content:hover{
+	background-color: #222;
+}
+
+.learn-contain h5, .learn-contain p{
+	color: white;
+}
+
+.learn-contain .content h5{
+	font-size: 1.5em;
+	color: #bbb;
+}
+
+.learn-contain .content p{
+	margin-top: 10px;
+	color: #555;
+}
+
+.learn-contain .content img{
+
+	width: 80%;
+	height: auto;
+}
+
+
+.how-it-works h5, .how-it-works p{
+	text-align: center;
+}
+
+.how-it-works h5{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: orange;
+	font-size: 1.5em;
+}
+
+.how-it-works p{
+	color: #555;
+}
+
+.project-rocks{
+	padding-bottom: 20px;
+}
+
+.project-rocks h5, .project-rocks p, .project-rocks h2{
+	color: white;
+}
+
+.project-rocks h5, .project-rocks p{
+	text-align: center;
+}
+
+.project-rocks h5{
+	font-size: 1.5em;
+}
+
+.project-rocks p{
+	margin-top: 10px;
+	font-size: 0.9em;
+	color: #aaa;
+}
+
+.project-rocks img{
+	width: 70%;
+	height: auto;
+	margin-left: 25px;
+}
+
+.project-rocks a{
+	font-size: 0.8em;
+	text-decoration: none;
+}
+
+.project-rocks a > p{
+	color: blue;
+}
+
+.project-rocks a:hover > p{
+	text-decoration: underline;
+}
+
+.check-out-curriculum{
+	padding: 20px 0;
+}
 
 footer li{
 	display: inline;
 }
-}
+
 /* Misc */
+
+.clear{
+	clear: both;
+}
 
 .empty-div{
 	height: 20px;
@@ -473,4 +567,21 @@ footer li{
 
 .black{
 	background-color: #111;
+}
+
+.text-white{
+	color: white;
+}
+
+.center-img{
+	margin: 0 auto;
+	width: 80%;
+}
+
+.center-text{
+	text-align: center;
+}
+
+.margin-top{
+	margin-top: 50px;
 }
