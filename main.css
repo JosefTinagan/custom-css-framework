@@ -543,8 +543,15 @@ body{
 }
 
 footer li{
-	display: inline;
+	display: inline-block;
+	color: blue;
+	padding: 10px 20px;
 }
+
+.improve-textfield{
+	width: 80%;
+}
+
 
 /* Misc */
 
@@ -584,4 +591,8 @@ footer li{
 
 .margin-top{
 	margin-top: 50px;
+}
+
+.padding-section{
+	padding: 20px 0;
 }
